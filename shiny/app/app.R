@@ -10,8 +10,8 @@ library(JuliaCall)
 
 showtext::showtext_auto(enable = TRUE)
 options(dplyr.summarise.inform=F)
-# julia_setup()
-# julia_command(paste0("include(\"", getwd(), "/functions.jl\")"))
+julia_setup()
+julia_command(paste0("include(\"", getwd(), "/functions.jl\")"))
 
 # UI ----
 # UI ----
