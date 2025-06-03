@@ -14,7 +14,6 @@ julia_setup()
 julia_command(paste0("include(\"", getwd(), "/functions.jl\")"))
 
 # UI ----
-# UI ----
 ui <- dashboardPage(
   dashboardHeader(title = "Power calculation for test-negative design",
                   titleWidth = 500),
